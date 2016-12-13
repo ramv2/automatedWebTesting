@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 
 public class AbstractPage {
 	protected WebDriver driver;
-	protected static final String landing = "http://www.buffalo.edu/~rsubrama";
-	protected static final String research = "http://www.buffalo.edu/~rsubrama/research.html";
-	protected static final String cv = "http://www.buffalo.edu/~rsubrama/cv.html";
-	protected static final String interests = "http://www.buffalo.edu/~rsubrama/interests.html";
-	protected static final String photoGallery = "http://www.buffalo.edu/~rsubrama/photoGallery.html";
+	protected static final String landing = "http://rheneas.eng.buffalo.edu/~rsubrama";
+	protected static final String research = "http://rheneas.eng.buffalo.edu/~rsubrama/research.html";
+	protected static final String cv = "http://rheneas.eng.buffalo.edu/~rsubrama/cv.html";
+	protected static final String interests = "http://rheneas.eng.buffalo.edu/~rsubrama/interests.html";
+	protected static final String photoGallery = "http://rheneas.eng.buffalo.edu/~rsubrama/photoGallery.html";
 	public AbstractPage(WebDriver driver) {
 		this.driver = driver;
 	}
